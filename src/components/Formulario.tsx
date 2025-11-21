@@ -103,7 +103,7 @@ function FormularioContato() {
                 
                 {/* Pergunta 3: Opcional */}
                 <div className="campo">
-                    <label htmlFor="pergunta3">Houve alguma dificuldade?</label>
+                    <label className='textPergunta' htmlFor="pergunta3">Houve alguma dificuldade?</label>
                     <textarea
                         id="pergunta3"
                         value={respostaTres}
@@ -115,7 +115,7 @@ function FormularioContato() {
                 <div className="campo">
                     <label htmlFor="pergunta3">Como será o dia de amanhã?</label>
                     <textarea
-                        id="pergunta3"
+                        id="pergunta4"
                         value={respostaQuatro}
                         onChange={(e) => setRespostaQuatro(e.target.value)}
                         rows={4}
@@ -126,7 +126,7 @@ function FormularioContato() {
                     <label htmlFor="pergunta3">Link da task</label>
                     <input
                         type="text"
-                        id="pergunta3"
+                        id="pergunta5"
                         value={respostaQuinto}
                         onChange={(e) => setrespostaQuinto(e.target.value)}
                     />
