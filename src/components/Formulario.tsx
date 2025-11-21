@@ -16,7 +16,7 @@ function FormularioContato() {
 
     
     // Aponta para o seu Controller (Formulario) e Ação (enviar-email)
-    const API_ENDPOINT: string = 'https://localhost:44305/api/Formulario/enviar-email'; 
+    const API_ENDPOINT: string = 'https://api-controle-atividade.onrender.com/api/Formulario/enviar-email'; 
 
     // Tipagem explícita do evento para TypeScript
     const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
